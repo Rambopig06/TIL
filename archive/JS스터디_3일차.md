@@ -34,7 +34,7 @@ typeof 10;
 ![타입오브숫자](https://github.com/user-attachments/assets/096866e1-96b3-40cc-9273-f41e409a9f63)
 
 
-위 사진처럼 숫자열이기 때문에에 'number' 가 출력된다.<br/>
+위 사진처럼 숫자열이기 때문에 'number' 가 출력된다.<br/>
 <br/>
 
 ![타입옵](https://github.com/user-attachments/assets/f5edffd0-e77f-43e2-8923-8723d7913767)
