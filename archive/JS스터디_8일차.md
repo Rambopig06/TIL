@@ -124,7 +124,7 @@ function fight(){
 
 영희의 대화가 방해받지않고 성공적으로 콘솔에 출력된다.<br/>
 
-### parameter(매개변수)
+### parameter(매개변수) , argument(전달인자)
 
 변수문의 꽃이라고 할 수 있는 요소 중 하나인 '매개변수'에 돌입했다.<br/>
 여기까지 따라온 나나 독자분들 전부 셀프 박수한번씩 쳐주자(짝짝)<br/>
@@ -132,9 +132,75 @@ function fight(){
 개인적으로 매개변수를 공부하면서 머리가 많이 깨질 것 같았지만,<br/>
 매개변수를 배움으로써 본격적으로 자바스크립트 구동을 하는 느낌도 든다.<br/>
 <br/>
-예시로 또 들어서 미안하지만 철수와 영희를 이용하여 설명하겠다.<br/>
+매개변수(parameter)를 공부할 때는, 전달인자(argument)에 대해서 같이 공부하기도 한다.<br/>
+전달인자는 함수를 호출할 때, 함수에 전달되는 값을 의미한다.<br/>
+폐에서 조직으로 산소를 운반하는 적혈구라고 생각하면 된다.<br/>
+
+![전달인자](https://github.com/user-attachments/assets/96c89d21-82e2-4f7f-83c4-0cf7a2a9441d)
+
+매개변수와 전달인자를 많이 헷갈려 한다.<br/>
+매개변수는 '함수 내부에 있는 인자 값'이 변수에 담긴 것 이다.<br/>
+적혈구는 산소를 각 조직(함수)에 전달하는 배달원 역할이지만,<br/>
+이번에 매개변수에 비유할 혈관이 없다면 적혈구도 소용 없을 것 이다.<br/>
+
+![매개변수](https://github.com/user-attachments/assets/299676de-8395-40eb-8c09-745c4cb76dc4)
+
+매개변수는 전달인자가 함수까지 값을 잘 전달하도록 도로 역할을 한다.<br/>
+<br/>
+
 
 ```
-function fight()
+function fight(babo, mungchung , ddong){
+    console.log(babo , ddong);
+}
+fight('바보' , '멍청이' , '똥개');
 ```
-(미완성 영역)
+를 콘솔에 쳐보면<br/>
+
+![바보 똥개](https://github.com/user-attachments/assets/17042173-8427-4754-a953-5d0696a62749)
+
+이렇게 각 매개변수 babo , mungchung , ddong 에 연결되어,<br/>
+console.log(babo , ddong) 에 따라 '바보' , '똥개' 가 출력되는 것이다.<br/>
+전달인자의 값을 전부 보고 싶을 땐,
+
+```
+function fight(babo , mungchung , ddong){
+    console.log(babo , ddong);
+    console.log(arguments);
+}
+fight('바보' , '멍청이' , '똥개');
+```
+
+이렇게 console.log(arguments) 를 추가하여,<br/>
+전달인자(argument)에 있는 값들을 전부 볼 수 있다.
+
+![바보 똥개 전달인자 값 포함](https://github.com/user-attachments/assets/9adaaecd-2252-4c0a-8d3d-8030ccf3a92c)
+
+숫자 계산도 가능하다.<br/>
+
+```
+function math(x , y){
+    return x + y;
+}
+console.log(math(3 , 14));
+console.log(math(15 , 17))
+```
+
+![더하기](https://github.com/user-attachments/assets/88d323ea-8b78-4bcf-8510-d9363c4b39a3)
+
+3+14 의 값과 15+17의 값을 반환하였다.<br/>
+함수를 만들고, 전달 인자의 값만 바꿔주면 재사용이 가능하다.
+
+### 매개변수 , 전달인자
+#### 1. const를 곁들여 사용
+
+예약어 'const' 는 변수선언 키워드 이지만,<br/>
+const 풀네임은 constant(상수)이다.<br/>
+상수처럼 '값을 불변케 하는 변수' 인 셈.<br/>
+(그냥 스파이같은 존재라 보면 된다.)<br/>
+<br/>
+const 빌드업을 내놨으니, 다음엔 이 예약어를 이용하여,<br/>
+객체에 관해 공부해보겠다.
+
+
+
