@@ -71,10 +71,5 @@ console.log(cheolsu.weight);
 ![프로퍼티값97출력](https://github.com/user-attachments/assets/e39321e2-d9b8-4483-b1b6-df262140b1f6)
 
 똑같은 결과가 나오지만 이렇게 쓸 수도 있다.<br/>
-
-
-
-
-
-
-
+<br/>
+다음에는 객체를 이용한 프로젝트로 주제를 바꾸어 블로그를 올려보겠다.
