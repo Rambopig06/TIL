@@ -1,4 +1,4 @@
-## 리눅스 명령어
+![철수를구하기위한cd](https://github.com/user-attachments/assets/71bdabbe-93d8-4750-ac54-5a1b71ad651c)## 리눅스 명령어
 오늘 배워볼 내용은 리눅스의 명령어다.<br/>
 이 명령어들은 'Visual Studio code'에서 학습해 볼 것이다.<br/>
 <br/>
@@ -168,3 +168,278 @@ GUI로 확인해 보았을 때, school폴더안에 두 파일이 잘 만들어�
 이렇게 cs.txt , yh.txt이 출력된다.
 
 
+### 디렉토리,파일 상세히 나열 - ll
+
+ls의 상휘호환이라고 할 수 있는 ll이라는 명령어를 공부해 볼 것이다.<br/>
+<br/>
+ll은 정식 명령어가 아닌, ( ls -l ) 명령어를 간략히 나타낸 명령어인데,<br/>
+다른 터미널에서는 작동되지 않는 경우가 많으니,<br/>
+ls -l 을 습관적으로 사용하는 것을 권장한다.<br/>
+<br/>
+
+![ll로 철수영희출력](https://github.com/user-attachments/assets/f23462f9-4c48-4341-9c55-a497a3a212e5)
+
+<br/>
+
+
+- 권한 : -rw-r--r--	파일 유형 및 접근 권한
+
+- 링크 수 : 1	해당 파일이나 디렉토리에 연결된 하드 링크의 수
+- 소유자 : min43	파일이나 디렉토리의 소유자 이름
+- 그룹	: 197609	파일이나 디렉토리가 속한 그룹 이름
+- 크기	: 0	파일의 크기(바이트 단위) 디렉토리의 경우 메타데이터 크기
+- 수정 날짜 및 시간	: Mar 16 18:30	마지막으로 파일이나 디렉토리가 수정된 날짜와 시간
+- 파일명 : cs.txt	파일이나 디렉토리의 이름
+- 
+
+
+이 자세한 내용은 일일이 알진 못해서 여기에 풀진 못하지만<br/>
+백엔드에 관련된 내용을 자세히 아는 개발자는 이 내용이 필요할 상황이 있을 것이다.<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+### cat - 파일 내용 보기
+
+일단, 이 명령어는 파일 내 내용을 출력하는 명령어이므로,<br/>
+먼저 철수의 생기부 내용을 간략하게 입력하겠다.
+
+
+![철수 생기부 작성](https://github.com/user-attachments/assets/64ef559f-b21e-456e-9366-97601fac2996)
+
+현실에서 이런 생기부를 가지게된다면<br/>
+상당히 문제가 되지만, 아무튼 이건 필자 상상으로 작성한<br/>
+철수의 생기부다.<br/>
+<br/>
+이제 cs.txt 에 작성한 생기부 내용을 터미널에서 조회해보자.
+
+```
+cat cs.txt
+```
+
+![캣으로 철수보기](https://github.com/user-attachments/assets/c4ed04bd-d8cc-42ff-bfba-5c714a408521)
+
+이렇게 cs.txt 내부에 있던 생기부 내용을<br/>
+터미널에 출력하였다.
+
+### head ,tail - 파일 내용 보기(처음부터 , 끝부터)
+
+cat과 사용법은 똑같지만, 단어 뜻과 똑같이<br/>
+head는 처음부터 출력 , tail은 끝부터 출력한다.<br/>
+<br/>
+하지만 몇줄을 출력하는지를 지정하지 않았다.<br/>
+이럴 땐, 기본값인 10줄만큼 출력한다.
+
+```
+head cs.txt
+```
+
+![헤드로 철수보기](https://github.com/user-attachments/assets/00b030e4-0ec8-4201-8754-20e60384ecbe)
+
+head를 사용하니, 철수 생기부 내용 10줄이 출력되었다.<br/>
+이번엔 끝부터 보자.<br/>
+<br/>
+<br/>
+
+```
+tail cs.txt
+```
+
+![테일로 철수보기](https://github.com/user-attachments/assets/a3211bfd-6bb4-4e85-839e-502b5722141b)
+
+이번엔 끝부터 10줄만큼 내용이 출력되었다.<br/>
+
+<br/>
+<br/>
+
+이젠, 추가 옵션들에관해 알아보자.<br/>
+
+```
+head -n 5 cs.txt
+```
+
+head 명령어 뒤에 num을 줄인 n 앞에 - 를 붙여 표현한다.<br/>
+그리고 몇줄을 출력할지 뒤에 숫자를 붙인다.<br/>
+5 줄을 출력할것이므로 -n 5 로 입력하였다.<br/>
+<br/>
+
+![헤드5줄철수](https://github.com/user-attachments/assets/a0707cd8-de79-4bd4-abeb-c6d2eb385f78)
+
+```
+head cs.txt -n 5
+```
+
+이렇게 순서를 바꾸어 작성해도 코드는 잘 작동한다.<br/>
+
+![헤드철수5줄](https://github.com/user-attachments/assets/e52fa870-5ebf-4f44-896f-eaea70b2b36b)
+
+<br/>
+<br/>
+
+tail 명령어도 똑같은 원리로 구동된다.
+
+```
+tail -n 5 cs.txt
+```
+
+![테일5줄철수](https://github.com/user-attachments/assets/a54c13ad-605b-4623-a96f-ecfa870bd400)
+
+이렇게 코드 끝부터 5줄이 출력되었다.<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 파일 이동 , 이름바꾸기 - mv
+
+move의 줄임말은 mv 명령어이다.<br/>
+<br/>
+파일을 이동시키는 명령어인데,<br/>
+파일을 이동시키기 전, 이름변경부터 해보겠다.<br/>
+<br/>
+생기부 내용대로 철수는 돈이 많으므로<br/>
+부자를 의미하는 rich를 붙여보겠다.<br/>
+
+```
+mv cs.txt rich_cs.txt
+```
+
+![철수이름변경CLI](https://github.com/user-attachments/assets/e7ec6c40-bbef-44bf-b84a-e48088855c61)
+
+이 명령어를 터미널에 입력하니, 생기부 파일 이름이<br/>
+
+![철수이름변경GUI](https://github.com/user-attachments/assets/0847cd6d-5b76-4988-8228-087956ec5a11)
+
+기본 cs.txt 이름에서 rich_cs.txt 로 성공적으로 변경되었다.<br/>
+<br/>
+mv (기존이름) (바꿀이름) 순으로 입력한다.<br/>
+<br/>
+<br/>
+이제 이 파일을 이동시켜볼것이다.<br/>
+
+```
+mv rich_txt ../
+```
+
+경로를 설정할 때, 위치를 구별하는 기호는 / 인데,<br/>
+school 폴더에서 쫓아내보기위해, 상위 폴더로 이동하는 .. 을 붙여<br/>
+school보다 상위 폴더로 이동시켰다.
+
+![부자철수퇴장](https://github.com/user-attachments/assets/1683d822-93a0-4285-81d7-8df3250f0eba)
+
+![부자철수퇴장GUI](https://github.com/user-attachments/assets/df0cd9de-793b-4dff-b27d-438d7dee4182)
+
+이제 쫓겨났던 불쌍한 철수의 생기부파일을 다시 school 폴더에 넣고<br/>
+원래 이름으로 복귀시켜보겠다.<br/>
+<br/>
+그 전에, 현재 필자가 위치하는 폴더에선,<br/>
+상위 폴더에 있는 철수를 구할 수 없으므로,
+
+![철수를구하기위한cd](https://github.com/user-attachments/assets/f544b717-250e-4ad1-bf0f-df448d4e1f55)
+
+이렇게 나도 상위폴더로 이동했다.<br/>
+이제 철수를 구할 수 있는 위치다.
+
+```
+mv rich.txt school/cs.txt
+```
+
+![Uploading 철수를구하기위한cd.png…](![철수구하기CLI](https://github.com/user-attachments/assets/d3534831-f924-40f0-85b1-4156ddbc3c9c)
+
+![철수구하기GUI](https://github.com/user-attachments/assets/346e6f55-c95c-407d-b990-211a906781bc)
+
+이렇게 이름이 원래 cs.txt로 변경되고, school 폴더안으로 이동시켰다.<br/>
+하지만 철수를 구하느라 내가 school 폴더안에 없다.<br/>
+내 위치를 터미널에서 알기위한 명령어 하나만 배우고 넘어가자.<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 현재 경로 확인 - pwd
+
+![현재경로확인](https://github.com/user-attachments/assets/5a56fc86-d0a1-4c63-9fd6-7a2287be61d9)
+
+이 명령어는 터미널에 pwd만 입력하면 현재 작업중인 위치를 볼 수 있다.<br/>
+<br/>
+다시 철수 , 영희의 파일을 수정하기위해, school 폴더로 넘어간다.
+
+![cd후school이동후pwd](https://github.com/user-attachments/assets/18816741-ab60-40b8-89eb-c86387a3ef3c)
+
+이제 철수와 영희를 괴롭힐 준비가 완료됐다.<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 파일 편집기 - vi
+
+```
+vi cs.txt
+```
+
+이 명령어를 입력하면 터미널에 굉장히 무서운 무언가가 실행되는데<br/>
+여기서 파일내용을 수정 할 수 있다.<br/>
+<br/>
+
+![vi철수에게1](https://github.com/user-attachments/assets/3d27f171-6671-435e-8a06-f5ad7484322a)
+
+이런 터미널형태가 된다면 성공이다.<br/>
+이제 편집을 하기 위해 누르는 다양한 단축키들이 있지만,<br/>
+필자는 i 를 제일 많이 누르므로 이걸로 실습해보자.
+
+<br/>
+<br/>
+<br/>
+
+![vi철수에게2(i누름)](https://github.com/user-attachments/assets/609056bf-c3c5-42c7-a9b4-6d74db5d847b)
+
+i 를 누르니, 터미널 맨 밑줄에  'INSERT' 가 뜬다.<br/>
+이제 화살표를 이용해 내가 원하는 내용을 수정하면 된다.
+
+<br/>
+<br/>
+<br/>
+
+![vi철수에게3(i누르고 수정)](https://github.com/user-attachments/assets/398ffe30-d4a8-4035-8ae4-db281debc446)
+
+내용 편집이 완료됐다. 더욱 사악한 생기부가 완성되었다.<br/>
+이제 편집기에서 탈출해보자.
+
+<br/>
+<br/>
+<br/>
+
+![vi철수에게4(esc누름)](https://github.com/user-attachments/assets/2e7b31dd-ae15-4705-9658-34478cbd239a)
+
+esc를 누르면 파일 편집기에서 탈출하게된다.<br/>
+그리고 : (콜론) 을 누르면 이렇게 콜론과 무언갈 입력하는 모드로<br/>
+바뀌는데, 이제 여기에 단어 몇개를 넣어서 실습해 볼 것이다.
+<br/>
+<br/>
+<br/>
+<br/>
+
+![vi철수에게5(저장후종료)](https://github.com/user-attachments/assets/480a5e98-9a5d-4b79-86c9-9da1e5d1de2e)
+
+이제 w와 q의 의미를 알아보자.<br/>
+- w : 저장
+- q : 닫기
+
+w와 q를 입력하면 저장 , 닫기후 터미널이 다시 원래모습으로 되돌아간다.
+<br/>
+<br/>
+<br/>
+<br/>
+![vi철수에게6(최종본)](https://github.com/user-attachments/assets/6ac4a84f-eb1b-4415-aa0f-bbaf037485dc)
+
+파일내에 수정한 내용이 그대로 잘 반영되었다.<br/>
+<br/>
+<br/>
+<br/>
+이렇게 리눅스 기초 명령어를 VS code에서 실습해보았다.<br/>
+다음에는 다른 코딩 정보를 가지고 오겠다.<br/>
