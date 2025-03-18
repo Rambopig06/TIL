@@ -1,4 +1,4 @@
-![철수를구하기위한cd](https://github.com/user-attachments/assets/71bdabbe-93d8-4750-ac54-5a1b71ad651c)## 리눅스 명령어
+## 리눅스 명령어
 오늘 배워볼 내용은 리눅스의 명령어다.<br/>
 이 명령어들은 'Visual Studio code'에서 학습해 볼 것이다.<br/>
 <br/>
@@ -68,7 +68,7 @@ bash는 Bourne Again Shell의 줄임말로, 유닉스 쉘 프로그램 sh의 확
 <br/>
 <br/>
 
-### 폴더 생성 - mkdir(make directory)
+## 폴더 생성 - mkdir(make directory)
 
 
 터미널을 띄우고 mkdir를 입력, 띄어쓰기 한번 하여<br/>
@@ -98,7 +98,7 @@ school 이라는 폴더가 생성되었다<br/>\
 <br/>
 <br/>
 
-### 파일 생성 - touch
+## 파일 생성 - touch
 
 폴더를 생성했으면 이제 파일을 생성할 차례다.<br/>
 메모장 파일을 생성할건데,<br/>
@@ -158,7 +158,7 @@ GUI로 확인해 보았을 때, school폴더안에 두 파일이 잘 만들어�
 <br/>
 <br/>
 
-### 현재 디렉토리의 파일이나 디렉토리 나열 - ls
+## 현재 디렉토리의 파일이나 디렉토리 나열 - ls
 
 아까 파일 제작이 잘 반영이 된걸 보기위해,<br/>
 터미널에 ls를 입력하여 현재 디렉토리에 있는 내용을 조회해본다.
@@ -224,7 +224,7 @@ cat cs.txt
 이렇게 cs.txt 내부에 있던 생기부 내용을<br/>
 터미널에 출력하였다.
 
-### head ,tail - 파일 내용 보기(처음부터 , 끝부터)
+## head ,tail - 파일 내용 보기(처음부터 , 끝부터)
 
 cat과 사용법은 똑같지만, 단어 뜻과 똑같이<br/>
 head는 처음부터 출력 , tail은 끝부터 출력한다.<br/>
@@ -293,7 +293,7 @@ tail -n 5 cs.txt
 <br/>
 <br/>
 
-### 파일 이동 , 이름바꾸기 - mv
+## 파일 이동 , 이름바꾸기 - mv
 
 move의 줄임말은 mv 명령어이다.<br/>
 <br/>
@@ -360,7 +360,7 @@ mv rich.txt school/cs.txt
 <br/>
 <br/>
 
-### 현재 경로 확인 - pwd
+## 현재 경로 확인 - pwd
 
 ![현재경로확인](https://github.com/user-attachments/assets/5a56fc86-d0a1-4c63-9fd6-7a2287be61d9)
 
@@ -376,7 +376,7 @@ mv rich.txt school/cs.txt
 <br/>
 <br/>
 
-### 파일 편집기 - vi
+## 파일 편집기 - vi
 
 ```
 vi cs.txt
