@@ -347,7 +347,7 @@ school보다 상위 폴더로 이동시켰다.
 mv rich.txt school/cs.txt
 ```
 
-![Uploading 철수를구하기위한cd.png…](![철수구하기CLI](https://github.com/user-attachments/assets/d3534831-f924-40f0-85b1-4156ddbc3c9c)
+![철수구하기CLI](https://github.com/user-attachments/assets/d3534831-f924-40f0-85b1-4156ddbc3c9c)
 
 ![철수구하기GUI](https://github.com/user-attachments/assets/346e6f55-c95c-407d-b990-211a906781bc)
 
