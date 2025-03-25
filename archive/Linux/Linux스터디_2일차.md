@@ -70,7 +70,10 @@
 실행하지 않는 프로세스는 대기 시킨다.
 <br/>
 
-![Uploading ram.jpg…]()
+![ram](https://github.com/user-attachments/assets/9f96fb4b-db16-48da-a3f3-60f069fdf383)
+
+RAM 예시 자료)
+
 
 메인 메모리는 RAM 이라고 하는데,<br/>
 고사양 게임을 하는 유저들이 고성능 RAM을 사용해야하는 이유가<br/>
