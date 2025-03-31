@@ -1,6 +1,6 @@
-## 함수
+# 함수
 
-### Function(함수)
+## Function(함수)
 
 함수를 영어로 표현하면 펑션 (function) 이다.<br/>
 특정한 작업을 수행하는 코드인데<br/>
@@ -35,7 +35,7 @@ function codeblue(){
 같은 함수라도 여러번 출력할 수 있다.<br/>
 <br/>
 
-### return(반환 값)
+## return(반환 값)
 
 함수 실행 후, 실행문 밑줄에 undifined가 같이 출력되는데,<br/>
 console.log 의 기본 '반환 값'이 undifined라서 그렇다.<br/>
@@ -72,7 +72,7 @@ return 문에 적었던 값이 반환 값 위치에 적용된다.
 
 ![반환값 한글](https://github.com/user-attachments/assets/5e7a624f-124d-48af-9a09-ed45745d4777)
 
-### return 문의 특성
+## return 문의 특성
 
 ```
 function fight(){
@@ -124,7 +124,7 @@ function fight(){
 
 영희의 대화가 방해받지않고 성공적으로 콘솔에 출력된다.<br/>
 
-### parameter(매개변수) , argument(전달인자)
+## parameter(매개변수) , argument(전달인자)
 
 변수문의 꽃이라고 할 수 있는 요소 중 하나인 '매개변수'에 돌입했다.<br/>
 여기까지 따라온 나나 독자분들 전부 셀프 박수한번씩 쳐주자(짝짝)<br/>
@@ -191,7 +191,7 @@ console.log(math(15 , 17))
 3+14 의 값과 15+17의 값을 반환하였다.<br/>
 함수를 만들고, 전달 인자의 값만 바꿔주면 재사용이 가능하다.
 
-### (다음 공부 내용에 쓰일 키워드) const
+## (다음 공부 내용에 쓰일 키워드) const
 
 예약어 'const' 는 변수선언 키워드 이지만,<br/>
 const 풀네임은 constant(상수)이다.<br/>
