@@ -67,6 +67,43 @@ Red Hat, CentOS, Debian, Fedora, Linux Mint 등이 있는데,<br/>
 <br/>
 오늘 배울 우분투도 이 배포판중 하나이다.<br/>
 지금부터 우분투 설치 후 환경 설정을 해보자.
+<br/>
+
+```
+https://ubuntu.com/download
+```
+이 링크로 접속하면 우분투 홈페이지로 넘어가게된다.<br/>
+<br/>
+
+![우분투데탑](https://github.com/user-attachments/assets/9496edbc-777b-4520-b78a-d3d51961a590)
+
+필자는 윈도우11 운영체제를 사용하고 있다.<br/>
+<br/>
+사진 속에서는 데스크탑용이라고 써있지만,<br/>
+필자는 노트북을 사용하며 이 버전을 다운받아써도<br/>
+문제 없이 잘 돌아가고 있다.<br/>
+<br/>
+각자의 운영체제를 파악한 후 다운로드 하도록 하자.<br/>
+
+![우분투LTS](https://github.com/user-attachments/assets/2791403b-e09c-4838-8d08-c773a57d12ba)
+
+![그냥우분투](https://github.com/user-attachments/assets/6c9f2b9b-9f6b-4147-a9d9-5d6eb4383ebe)
+
+다운로드 버튼을 누르면 이렇게 두 가지 버전이 있다.<br/>
+LTS냐, 일반 버전이냐 차인데<br/>
+어떤 차이인지 알아보도록 하자.<br/>
+<br/>
+<br/>
+
+``
+LTS : Long Term Support
+``
+<br/>
+LTS 버전은 단어 뜻 처럼<br/>
+'장기 지원' 버전이다.<br/>
+<br/>
+
+
 
 
 
