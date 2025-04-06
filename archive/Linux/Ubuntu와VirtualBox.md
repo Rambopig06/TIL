@@ -171,36 +171,91 @@ LTS는 새로운 기능을 쓰기엔 오랜 시간이 걸리지만,<br/>
 데스크탑 이용자들에게 인기가 좋다.<br/>
 <br/>
 <br/>
-
-## VirtualBox 설치
-
 정규버전이나 LTS 중 하나를 고르고<br/>
 다운로드를 누르면, 약 5GB정도되는 실행 파일이 설치된다.<br/>
 <br/>
 설치하는데 생각보다 오래 걸리니,<br/>
 눌러놓고 커피한잔하고 오자.<br/>
 <br/>
-이제 이 iso 파일을 VirtualBox 로 실행해보겠다.
 
+## VirtualBox 설치
 
+이제 이 iso 파일을 VirtualBox 로 실행해보겠다.<br/>
+<br/>
+<b>오라클</b>에서 배포중인 가상머신 소프트웨어이다.
 
+<i>https://www.virtualbox.org/wiki/Downloads</i><br/>
+<br/>
+이 링크로 접속하면 이러한 화면이 뜬다.<br/>
 
+![버추얼홈피전체](https://github.com/user-attachments/assets/c2796a28-6b36-4179-8167-3031bef99005)
 
+여기서 왼쪽 밑 운영체제별 다운로드 양식이 뜨는데,<br/>
 
+![버추얼홈피양식](https://github.com/user-attachments/assets/9ceb58eb-3485-4ade-9c6f-ab2d8c7a3d41)
 
+각자의 운영체제에 맞춰 다운로드 하면 된다.<br/>
+다운로드 후에 exe 파일을 실행시키면,<br/>
 
+![버추얼1](https://github.com/user-attachments/assets/df0a1554-38df-417b-815b-f52cdcfdf3a4)
 
+창이 열린다. next를 누른다.<br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼2](https://github.com/user-attachments/assets/0654cbe6-f917-4c9f-91cf-9888707717dd)
 
+사용자 약관 동의 후 다음으로 넘어간다.<br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼3](https://github.com/user-attachments/assets/5c9df834-9871-434c-81aa-160e63f0fd8d)
 
+기본세팅 건들지 말고 넘어간다.<br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼4(네트워크 리셋)](https://github.com/user-attachments/assets/54822009-c201-4c59-a44b-188cf1594ecc)
 
+빨간 글씨로 네트워크가 리셋된다고 나오지만 넘어간다.<br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼5](https://github.com/user-attachments/assets/03fad3fd-6b0e-40a3-aad1-cca1eab37819)
 
+의존성 프로그램 Python Core와 win32api 가 없다고 뜬다.<br/>
+계속 넘어간다.<br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼6](https://github.com/user-attachments/assets/1ac91b72-f692-41ba-ad46-c995e40bffd6)
 
+바탕화면 아이콘 등 편한대로 선택하면 된다.<br/>
+대신 맨 밑 항목은 꼭 체크한다.<br/>
+<br/>
+<i><b>Register File Associations : 파일 연결을 등록하는 작업.</i></b><br/>
+<br/>
+<br/>
+<br/>
 
+![버추얼7(설치중)](https://github.com/user-attachments/assets/c958c066-26e3-4f41-87b6-939c67c782f8)
+
+설치 중
+
+![버추얼컴플리트](https://github.com/user-attachments/assets/f5e25cf9-9fea-4140-b2fb-508cff7d756b)
+
+쭈욱 next , install 만 누르면 이렇게<br/>
+설치가 완료된다.<br/>
+<br/>
+<br/>
+
+이제 실행시켜보자.<br/>
+<br/>
 
 
 
