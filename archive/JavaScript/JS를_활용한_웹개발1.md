@@ -94,5 +94,5 @@ rel 옆에 stylesheet 를 입력하고,<br/>
 href 옆에는 style.css 의 경로를 입력한다.<br/>
 <br/>
 
-
+Javascript 에 관한 기초 이론은 2장에서 공부하겠다<br/>
 <br/>
