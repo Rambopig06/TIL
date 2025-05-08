@@ -16,7 +16,7 @@
 | JavaScript |**[자바스크립트 문법 입문 -7](archive/JavaScript/JS스터디_8일차.md)**<br/>함수 - function , return , parameter에 관해 공부함.|2025.03.02~<br/>2025-03-04|
 | JavaScript |**[자바스크립트 문법 입문 -8](archive/JavaScript/JS스터디_9일차.md)**<br/>함수 - 객체 리터럴 , 프로퍼티에 관해 공부함.|2025.03.06~<br/>2025.03.14|
 | JavaScript |**[웹 프로젝트 제작](archive/JavaScript/JS를_활용한_웹개발1.md)**<br/>프로젝트 - html,css 의 기초 이론.|2025.04~<br/>2025.05|
-| JavaScript |**[웹 프로젝트 제작](archive/JavaScript/JS를_활용한_웹개발2.md)**<br/>프로젝트 - JS 문법을 활용한 동적 웹 구현.|2025.05~|
+| JavaScript |**[웹 프로젝트 제작](archive/JavaScript/JS를_활용한_웹개발2.md)**<br/>프로젝트 - JS 이론 및 동적 웹 구현.|2025.05~|
 | BigData |**[빅데이터 이론 공부](archive/Big_data/빅데이터의_개념.md)**<br/>빅데이터 - 빅데이터의 이론 공부|2025.04.19|
 | BigData |**[데이터 분석 이론](archive/Big_data/통계분석_이론.md)**<br/>빅데이터 - 통계와 데이터 분석 이론 공부|2025.04.21|
 | AWS |**[AWS 이론공부](archive/AWS/AWS_이론_학습.md)**<br/>AWS - 클라우드 컴퓨팅의 이론공부|2025.04|
