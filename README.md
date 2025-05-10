@@ -19,7 +19,7 @@
 | JavaScript |**[웹 프로젝트 제작](archive/JavaScript/JS를_활용한_웹개발2.md)**<br/>프로젝트 - JS 이론 및 동적 웹 구현.|2025.05~|
 | BigData |**[빅데이터 이론 공부](archive/Big_data/빅데이터의_개념.md)**<br/>빅데이터 - 빅데이터의 이론 공부|2025.04.19|
 | BigData |**[데이터 분석 이론](archive/Big_data/통계분석_이론.md)**<br/>빅데이터 - 통계와 데이터 분석 이론 공부|2025.04.21|
-| AWS |**[AWS 이론공부](archive/AWS/AWS_이론_학습.md)**<br/>AWS - 클라우드 컴퓨팅의 이론공부|2025.04|
+| AWS |**[AWS 이론공부](archive/AWS/AWS_이론_학습.md)**<br/>AWS - 클라우드 컴퓨팅의 이론공부|2025.05|
 | Linux |**[리눅스 및 운영체제](archive/Linux/Linux스터디_2일차.md)**<br/>리눅스의 개념 - 운영체제의 개요 및 설명.|2025.03.21~<br/>2025.03.27|
 | Linux |**[우분투와 버추얼박스](archive/Linux/Ubuntu와VirtualBox.md)**<br/>리눅스 실습 - 우분투와 버추얼박스의 설명 및 설치.|2025.03.29~<br/>2025.04.06|
 | Linux |**[리눅스 기초 명령어](archive/Linux/Linux스터디_1일차.md)**<br/>리눅스 명령어 - Bash 터미널 실행후 폴더 및 파일 편집에 관해 공부함.|2025.03~2025.04|
