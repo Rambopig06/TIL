@@ -11,6 +11,13 @@
 
 ## Copyright(저작권)
 
+![copyleft-38671_1280](https://github.com/user-attachments/assets/0f30d90c-d3c7-433a-8909-c786455a1002)
+
+'카피레프트'의 로고다.<br/>
+<br/>
+저작권을 뜻하는 Copyright는 저 로고를 오른쪽으로 한번 뒤집으면<br/>
+되는데, 이제 저작권과 오픈소스 운동을 설명하겠다.<br/>
+<br/>
 보통 홈페이지나, 회사의 저작물들을 보면,<br/>
 "Copyright" 라는 단어를 볼 수 있다.<br/>
 이는, 저작권이라는 뜻인데,<br/>
