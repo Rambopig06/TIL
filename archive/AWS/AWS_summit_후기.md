@@ -1,5 +1,6 @@
 # AWS SUMMIT SEOUL 
 
+![써밋입구](https://github.com/user-attachments/assets/0c8418b1-6a72-43c5-a943-2339a8ac7639)
 
 
 2025년, AWS에서 주관하는 'AWS Summit' 이라는 행사가<br/>
@@ -47,7 +48,8 @@ AWS 커뮤니티 트랙까지 놓쳐서는 안되는 필수 내용들로 구성�
 사전 신청을 했음에도 강연장에 들어가지 못하고 <br/>
 강연장 밖 코카콜라 자판기 옆에서 도강하는 웃픈 상황이 펼쳐졌다.<br/>
 <br/>
-(강연밖)
+
+![강연밖](https://github.com/user-attachments/assets/5c1fab19-4cea-4ac9-8d6c-9716c2b1cc2d)
 
 사실 필자도 AWS 제품과 미래기술에 대해 잘 아는게 없어<br/>
 듣고 이해하지 못해 이 글에 서술하지 못하는 점 양해 바란다..<br/>
@@ -62,13 +64,13 @@ EC2 를 많이 사용할 것이다.<br/>
 인스턴스를 사용하면서 그 인스턴스를 우리에게 제공하는<br/>
 '하드웨어' 가 궁금한 사람들이 많을 것 이다.<br/>
 
-(랙 실물)
+![랙실물](https://github.com/user-attachments/assets/751736bc-8778-443a-96a5-4b707c67f344)
 
 실제 하드웨어는 이렇게 생겼다.<br/>
 이 컴퓨터는 AWS Summit 1층 로비에 전시되어 있었는데,<br/>
 이 장치 옆에 장치에 관한 설명글이 있었다.<br/>
 
-(랙 설명)
+![랙설명](https://github.com/user-attachments/assets/c218e5c1-1438-4158-ae8c-458f7abed460)
 
 이 장치는 어느정도 규모 이상의 기업 내에 데이터센터가 있는 경우<br/>
 그 데이터 센터에 장착하여 운영하는,<br/>
