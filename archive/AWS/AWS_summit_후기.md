@@ -1,7 +1,6 @@
 # AWS SUMMIT SEOUL 
 
-![써밋입구](https://github.com/user-attachments/assets/0c8418b1-6a72-43c5-a943-2339a8ac7639)
-
+![써밋입구](https://github.com/user-attachments/assets/23fc624a-efea-488e-bd27-5a35e6dca6e0)
 
 2025년, AWS에서 주관하는 'AWS Summit' 이라는 행사가<br/>
 5월 14일부터 15일까지 진행하였다.<br/>
@@ -49,11 +48,14 @@ AWS 커뮤니티 트랙까지 놓쳐서는 안되는 필수 내용들로 구성�
 강연장 밖 코카콜라 자판기 옆에서 도강하는 웃픈 상황이 펼쳐졌다.<br/>
 <br/>
 
-![강연밖](https://github.com/user-attachments/assets/5c1fab19-4cea-4ac9-8d6c-9716c2b1cc2d)
+![강연밖](https://github.com/user-attachments/assets/03358b73-350e-4321-a4f4-44008d4b5095)
 
 사실 필자도 AWS 제품과 미래기술에 대해 잘 아는게 없어<br/>
 듣고 이해하지 못해 이 글에 서술하지 못하는 점 양해 바란다..<br/>
 <br/>
+
+## 데이터센터 표준 랙(AWS Outposts Server)
+
 
 이 글을 보는 사람 중 AWS 서비스를 사용하는 대부분은<br/>
 EC2 를 많이 사용할 것이다.<br/>
@@ -64,13 +66,13 @@ EC2 를 많이 사용할 것이다.<br/>
 인스턴스를 사용하면서 그 인스턴스를 우리에게 제공하는<br/>
 '하드웨어' 가 궁금한 사람들이 많을 것 이다.<br/>
 
-![랙실물](https://github.com/user-attachments/assets/751736bc-8778-443a-96a5-4b707c67f344)
+![랙실물](https://github.com/user-attachments/assets/a1b372b6-16a9-42be-baf0-c4e7ec8e53cf)
 
 실제 하드웨어는 이렇게 생겼다.<br/>
 이 컴퓨터는 AWS Summit 1층 로비에 전시되어 있었는데,<br/>
 이 장치 옆에 장치에 관한 설명글이 있었다.<br/>
 
-![랙설명](https://github.com/user-attachments/assets/c218e5c1-1438-4158-ae8c-458f7abed460)
+![랙설명](https://github.com/user-attachments/assets/602e6423-b037-434d-bd50-6b552df4c163)
 
 이 장치는 어느정도 규모 이상의 기업 내에 데이터센터가 있는 경우<br/>
 그 데이터 센터에 장착하여 운영하는,<br/>
@@ -86,7 +88,58 @@ AWS는 클라우드 서버 서비스를 제공하기 위해<br/>
 리전이 가까울 수록 서비스의 속도 지연이 적다.<br/>
 서울 근교의 기업들은 AWS 서비스를 사용하는데 큰 제약이 없지만,<br/>
 지방에 있는 기업이거나, 엄청 빠른 속도의 서버를 필요로 하는 기업일 때<br/>
-이렇게 데이터 센터 렌탈을 사용한다. 
+이렇게 데이터 센터 렌탈을 사용한다. <br/>
+
+
+## AWS Bedrock
+
+#### AWS 공식 사이트의 Bedrock 서비스 설명
+
+Amazon Bedrock은 AI21 Labs, Anthropic, Cohere, DeepSeek, <br/>
+Luma, Meta, Mistral AI, poolside(출시 예정), Stability AI, TwelveLabs(출시 예정)<br/>
+Amazon 등 주요 AI 회사의 다양한 고성능 파운데이션 모델(FM)을 단일 API를 <br/>
+제공하는 완전관리형 서비스이며, 보안, 개인 정보 보호, 책임 있는 AI를 비롯하여<br/>
+'생성형 AI 애플리케이션 구축'에 필요한 광범위한 기능 세트도 제공합니다. <br/>
+Amazon Bedrock을 사용하면 사용 사례에 맞게 상위 FM을 쉽게 실험 및 평가하고, <br/>
+미세 조정 및 검색 증강 생성(RAG)과 같은 기술을 사용하여 데이터로 비공개로 <br/>
+사용자 지정하고, 엔터프라이즈 시스템 및 데이터 소스를 사용하여 작업을 실행하는<br/>
+ 에이전트를 구축할 수 있습니다. Amazon Bedrock은 서버리스이므로 인프라를 <br/>
+ 관리할 필요가 없으며 이미 익숙한 AWS 서비스를 사용하여 생성형 AI 기능을 <br/>
+ 애플리케이션에 안전하게 통합하고 배포할 수 있습니다.
+
+<br/>
+
+![베드락](https://github.com/user-attachments/assets/8c8cb285-9874-4187-a303-f6c212bb43e6)
+
+AWS 에서는 베드락이라는 서비스를 제공한다.<br/>
+현재 전 세계에서는 '생성형 AI' 경쟁이 치열하게 일어나고 있고,<br/>
+생성형 AI 로 인해 사회 분위기도 많이 달라지고 있다.<br/>
+<br/>
+간단한 질문 , 과제 , 심심풀이 등등 각종 이유로 생성형 AI ,<br/>
+특히 '챗 GPT' , 'Gemini' 등등을 많이 사용한다.<br/>
+<br/>
+이렇듯 생성형 AI 시장이 커지는 가운데 AWS 도 생성형 AI 에 뛰어들었다.<br/>
+<br/>
+하지만 일반 사용자가 사용하는 생성형 AI 보단,<br/>
+생성형 AI 의 API 를 사용하여 플랫폼이나 각종 프로그램을 만드는<br/>
+기업이나 사업자들을 중점으로 타겟으로 삼아 ,<br/>
+파운데이션 모델(FM) 을 제공한다.<br/>
+<br/>
+
+#### 파운데이션 모델이란
+
+대규모 데이터세트를 기반으로 훈련된 머신러닝 , 딥러닝 모델.<br/>
+광범위한 사례에 적용되도록 일반화된 데이터에 맞춰 훈련되어 있으며<br/>
+산더미같은 데이터에서 비지도 학습을 통해 훈련된 AI 신경망이고,<br/>
+범용적인 특성을 띄우므로 사용하는 케이스에 맞춰 <br/>
+파운데이션 모델을 조정해 사용할 수 있다.<br/>
+<br/>
+<br/>
+
+
+
+
+
 
 
 
