@@ -15,6 +15,11 @@ html 을 사용하여 웹 페이지를 제작할 때<br/>
 `section : 메인 내용`<br/>
 `footer : 푸터`<br/>
 등으로 나뉜다.<br/>
+
+![시멘틱구성](https://github.com/user-attachments/assets/5cfb5808-0922-439d-9537-237ce33892d7)
+
+보통 위에서부터 Header , Section , Footer 순이지만<br/>
+Nav 나 Aside 는 필요에 따라 필요한 위치에 추가한다.<br/>
 <br/>
 div 같은 명령어에 class나 id 옵션을 사용하여<br/>
 각 항목의 역할과 이름을 부여하기도 하지만<br/>
