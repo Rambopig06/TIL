@@ -9,8 +9,8 @@ ERD 의 풀 네임은, `Entity Relationship Diagram` 이다.<br/>
 
 ## ERD 의 구성요소 
 
-Entity : 
-
-Attribute :
-
-Relationship :
+Entity(개체) : 현실세계에서 독립적으로 존재하는 개체나 개념 <br/>
+<br/>
+Attribute(속성) : 개체의 특성이나 정보를 설명하는 요소.<br/>
+<br/>
+Relationship(관계) : 개체와 개체 사이의 연관성.<br/>
