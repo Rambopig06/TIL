@@ -1,6 +1,12 @@
-# 개체 관계 다이어그램
+# ERD(개체 관계 다이어그램)
 
 ERD 의 풀 네임은, `Entity Relationship Diagram` 이다.<br/>
+번역하면 `개체 관계 다이어그램` 이며,<br/>
+다이어그램이 뭔지 생소할 독자들을 위해 설명하면,<br/>
+<br/>
+어떠한 정보나 개념 , 관계들을 시각적으로 표현하는 그림이나 도표를 의미한다.<br/>
+ERD 는 개체들의 관계를 시각적으로 표현한 그림이라고 생각하면 된다.<br/>
+<br/>
 데이터베이스 설계에서 사용하는 기법이며,<br/>
 데이터베이스에 저장될 엔티티와 엔티티의 관계를 시각화 한다.<br/>
 <br/>
@@ -11,7 +17,11 @@ ERD 의 풀 네임은, `Entity Relationship Diagram` 이다.<br/>
 
 Entity(개체) : 현실세계에서 독립적으로 존재하는 개체나 개념 <br/>
 <br/>
-Attribute(속성) : 개체의 특성이나 정보를 설명하는 요소.<br/>
+Attribute(속성) : 개체의 특성이나 정보를 설명하는 요소이며<br/>
+데이터의 가장 작은 논리적 단위이다.<br/>
 <br/>
-Relationship(관계) : 개체와 개체 사이의 연관성.<br/>
+Relationship(관계) : 개체와 개체 사이의 연관성.(1:1 , 1:N , N:N형태)<br/>
+<br/>
+
+
 <img width="452" height="360" alt="ERD 표기법" src="https://github.com/user-attachments/assets/416b9627-0b2a-4fbc-94b9-2a9f62fc9c86" />
