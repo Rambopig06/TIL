@@ -22,7 +22,7 @@
 | BigData |**[데이터 분석 이론](archive/Big_data/데이터_검정.md)**<br/>빅데이터 - 데이터를 검정하는 방법|2025.05|
 | BigData |**[데이터 분석 이론](archive/Big_data/애널리틱스_이론.md)**<br/>빅데이터 - 애널리틱스 이론|2025.06|
 | BigData |**[컴퓨터 기초 이론](archive/Big_data/컴퓨터_이론.md)**<br/>컴퓨터 이론 - 디지털 포렌식 , 멀티미디어 , 모바일기기 , 메타버스|2025.06.23|
-| BigData |**[데이터베이스 이론](archive/Big_data/ERD.md)**<br/>빅데이터 - 데이터베이스 , ERD|2025.07|
+| BigData |**[데이터베이스 이론](archive/Big_data/데이터베이스_설계.md)**<br/>빅데이터 - 데이터베이스 설계 이론.|2025.07|
 | AWS |**[AWS 이론공부](archive/AWS/AWS_이론_학습.md)**<br/>AWS - 클라우드 컴퓨팅의 이론공부|2025.05|
 | AWS |**[AWS 번외](archive/AWS/AWS_summit_후기.md)**<br/>AWS - AWS Summit Seoul 후기|2025.05.26~2025.05.28|
 | Linux |**[리눅스 및 운영체제](archive/Linux/Linux스터디_2일차.md)**<br/>리눅스의 개념 - 운영체제의 개요 및 설명.|2025.03.21~<br/>2025.03.27|
